@@ -1,0 +1,25 @@
+.container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 0;
+  border-radius: 20px 0px 0px 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.active {
+  color: white;
+  background-color: #ad253f;
+}
+
+.inactive {
+  color: black;
+  background-color: #e2e6f1;
+}
